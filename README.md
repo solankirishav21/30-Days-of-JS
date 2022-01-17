@@ -13,3 +13,8 @@ While following the instructions in tutorials, you’ll feel more and more comfo
 # About the Course Instructor
 
 The teacher and creator of this course is Wes Bos. He is a full-stack web developer and teacher from Canada. As he mentioned in the course intro, he has taught over 500 students in 200+ classes and spoken at dozens of conferences around the world.
+
+
+----------------------------------------------------------------------------------------------
+
+<a href="https://javascript30.com/">30-Days of JavaScript</a> || <a href="https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH">YouTube</a> 
