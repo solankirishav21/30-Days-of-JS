@@ -10,6 +10,6 @@ While following the instructions in tutorials, you’ll feel more and more comfo
 
 
 
-# About the Course Instrutor
+# About the Course Instructor
 
 The teacher and creator of this course is Wes Bos. He is a full-stack web developer and teacher from Canada. As he mentioned in the course intro, he has taught over 500 students in 200+ classes and spoken at dozens of conferences around the world.
