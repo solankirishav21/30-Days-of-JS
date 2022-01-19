@@ -1,6 +1,6 @@
 :root{
     --base : #ffc600;
-    --space : 10px;
+    --spacing : 10px;
     --blur : 10px;
 }
 
@@ -21,7 +21,7 @@ input{
 }
 
 img{
-    padding: var(--space);
+    padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
 }
