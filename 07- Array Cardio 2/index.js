@@ -1,3 +1,4 @@
+// console.log("connected");
 const people = [
   { name: 'Wes', year: 1988 },
   { name: 'Kait', year: 1986 },
@@ -12,3 +13,46 @@ const comments = [
   { text: 'Ramen is my fav food ever', id: 123523 },
   { text: 'Nice Nice Nice!', id: 542328 }
 ];
+ 
+    // Some and Every Checks
+    // Array.prototype.some() // is at least one person 19 or older?
+    const isadult = people.some((person) => {
+        const currentYears = (new Date().getFullYear());
+        if(currentYears - person.year >= 19){
+            return true;
+        }
+    })
+    console.log(isadult);
+    // Array.prototype.every() // is everyone 19 or older?
+    
+    const everyPerson = people.every((person)=>{
+        const currentYear  = (new Date().getFullYear());
+        if(currentYear - person.year >= 19){
+            return true;
+        }
+    })
+
+    console.log(everyPerson);
+    // Array.prototype.find()
+    // Find is like filter, but instead returns just the one you are looking for
+    // find the comment with the ID of 823423
+    
+    const comment = comments.find((cmmnt) => {
+        if(cmmnt.id === 823423){
+            return true;
+        }
+    })
+    console.log(comment);
+
+    // Array.prototype.findIndex()
+    // Find the comment with this ID
+    // delete the comment with the ID of 823423
+
+    const index = comments.findIndex((cmmnt) => {
+        if(cmmnt.id === 823423){
+            return true;
+        }
+    })
+    console.log(index);
+    comments.splice(index,1)
+    console.table(comments);
